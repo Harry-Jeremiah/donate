@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: blue;
+            color: white;
+            max-width: 500px;
+            width: 90%;
+            margin: 20px auto;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+        }
+
+        h3 {
+            margin-top:-30px ;
+        }
+
+        .top {
+            background: url("images/UN-Logo.png") no-repeat center;
+            height:20vw;
+            background-size: contain;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: aliceblue;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .donation-box {
+            background: #f0f8ff;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+
+        .donation-box strong {
+            color: #000;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 20px;
+            padding: 12px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0065b3;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 10px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>UNSA</h1>
+            <h3>SHERIDAN</h3>
+        </div>
+        <h1>Support Our Work</h1>
+        <p>
+            Your donation will help us continue our mission and support those in need.
+            Thank you for your generosity.
+        </p>
+
+        <div class="donation-box">
+            <p>
+                <strong>Donate via E-transfer</strong>
+            </p>
+
+            <p>
+                Send your e-transfer to: <br>
+                <strong>donations@example.com</strong>
+            </p>
+
+            <p>
+                Message: <strong>Donation</strong>
+            </p>
+        </div>
+
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Your name">
+
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Your email">
+
+            <label for="name">Donation Amount (CAD):</label>
+            <input type="number" placeholder="e.g 50">
+
+            <label for="name">Message:</label>
+            <textarea name="message" rows="4"></textarea>
+
+            <button type="submit">I have sent the E-transfer</button>
+        </form>
+
+        <div class="footer">
+            <p>May God bless you for your support🙏🙏🏻🙏🏻🙏🏻</p>
+        </div>
+
+        <div class="links">
+            <a href="https://acorn2oak.ca" target="_blank">
+                <img src="images/acorn2Oak.jpg" alt="Acorn2Oak logo" style="height: 60px; width:140px">
+            </a>
+
+            <a href="https://muslimfoodbank.com/" target="_blank">
+                <img src="images/muslimfd.webp" alt="MuslimFd logo" style="height: 60px; width:160px">
+            </a>
+            <a href="https://www.oakvillefoodbank.com" target="_blank">
+                <img src="images/oakvillefd.jpg" alt="Oakville foodbank logo" style="height: 60px; width:110px">
+            </a>
+        </div>               
+    </div>
+</body>
+</html>
